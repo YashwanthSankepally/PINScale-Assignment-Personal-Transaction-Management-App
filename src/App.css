@@ -1,7 +1,9 @@
+/* Reset default box sizing */
 * {
   box-sizing: border-box;
 }
 
+/* Set basic styling for the body */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,4 +11,153 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Sidebar styles */
+.Sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.Sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Sidebar li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Sidebar li:hover {
+  background-color: #e0e0e0;
+}
+
+/* Dashboard styles */
+.Dashboard {
+  padding: 20px;
+}
+
+.Dashboard h2 {
+  margin-bottom: 20px;
+}
+
+/* YourTransactionsPage styles */
+.YourTransactionsPage {
+  padding: 20px;
+}
+
+.YourTransactionsPage h2 {
+  margin-bottom: 20px;
+}
+
+/* AllTransactionsPage styles */
+.AllTransactionsPage {
+  padding: 20px;
+}
+
+.AllTransactionsPage h2 {
+  margin-bottom: 20px;
+}
+
+/* AddTransactionModal styles */
+.AddTransactionModal {
+  width: 300px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.AddTransactionModal input,
+.AddTransactionModal select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.AddTransactionModal button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* UpdateTransactionModal styles */
+.UpdateTransactionModal {
+  width: 300px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.UpdateTransactionModal input,
+.UpdateTransactionModal select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.UpdateTransactionModal button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* DeleteTransactionFunctionality styles */
+.DeleteTransactionFunctionality {
+  padding: 20px;
+  text-align: center;
+}
+
+.DeleteTransactionFunctionality button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Profile styles */
+.Profile {
+  padding: 20px;
+}
+
+.Profile h2 {
+  margin-bottom: 20px;
+}
+
+.Profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Logout styles */
+.Logout {
+  padding: 20px;
+  text-align: center;
+}
+
+.Logout button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }

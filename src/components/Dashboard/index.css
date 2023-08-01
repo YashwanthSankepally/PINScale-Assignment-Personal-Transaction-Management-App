@@ -1,0 +1,112 @@
+/* src/components/Dashboard/index.css */
+
+.dashboard-container {
+  padding: 20px;
+}
+
+.total-credit-debit {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.total-credit-debit div {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.total-credit-debit h3 {
+  margin: 0;
+}
+
+.recent-transactions {
+  margin-bottom: 20px;
+}
+
+.recent-transactions h3 {
+  margin: 0;
+}
+
+.recent-transactions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-transactions li {
+  margin-bottom: 5px;
+}
+
+.daily-chart {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.daily-chart h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Styles for the BarChart itself */
+.daily-chart .recharts-wrapper {
+  margin-top: 10px;
+}
+
+/* Styles for the Tooltip */
+.daily-chart .recharts-tooltip {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.daily-chart .recharts-tooltip-label {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.daily-chart .recharts-tooltip-item {
+  margin-bottom: 4px;
+}
+
+.daily-chart .recharts-tooltip-item-name {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Styles for the Legend */
+.daily-chart .recharts-legend {
+  margin-top: 10px;
+}
+
+.daily-chart .recharts-legend-item {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.daily-chart .recharts-legend-item-text {
+  font-size: 14px;
+}
+
+.daily-chart .recharts-legend-item > rect {
+  stroke-width: 2;
+}
+
+.daily-chart .recharts-legend-item-hidden .recharts-legend-item-text {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.daily-chart .recharts-legend-item-active {
+  font-weight: bold;
+}

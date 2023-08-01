@@ -1,0 +1,44 @@
+.your-transactions-container {
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.transactions-list {
+  margin-top: 20px;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.transaction-item p {
+  margin: 0;
+}
+
+.transaction-actions button {
+  margin-left: 10px;
+}
